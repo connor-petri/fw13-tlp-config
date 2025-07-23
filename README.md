@@ -1,5 +1,10 @@
 All power levels were recorded using the Energy page of the Info Center in KDE Plasma. I don’t know how accurate this tool is. Each measurement was taken by performing the activity and checking the energy menu periodically. The ranges represent the highest and lowest values that I observed. My brightness and volume were set to 50%, and my keyboard backlight was completely off.
 
+### My Specs
+- Framework 13 AMD AI 9 HX 370
+- 128 GB Crucial DDR5-5600
+- 2 TB Samsung 970 EVO Plus
+
 ### Using `power-profiles-daemon` power saving profile:
 - **Idle**: 5.85W – 6.5W
 - **LibreOffice Writer**: 8.5W – 9.5W
