@@ -4,6 +4,7 @@ All power levels were recorded using the Energy page of the Info Center in KDE P
 - Framework 13 AMD AI 9 HX 370
 - 128 GB Crucial DDR5-5600
 - 2 TB Samsung 970 EVO Plus
+- Fedora 42 KDE Edition
 
 ### Using `power-profiles-daemon` power saving profile:
 - **Idle**: 5.85W – 6.5W
