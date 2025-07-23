@@ -21,7 +21,7 @@ All power levels were recorded using the Energy page of the Info Center in KDE P
 
 2. **Download `tlp.conf` and place it in `/etc/`:**
     ```
-    # Insert curl command here
+    sudo curl -o /etc/tlp.conf https://raw.githubusercontent.com/connor-petri/fw13-tlp-config/refs/heads/main/tlp.conf
     ```
     
 3. **Disable and mask `power-profiles-daemon`:**
