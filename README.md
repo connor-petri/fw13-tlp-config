@@ -30,9 +30,12 @@ All power levels were recorded using the Energy page of the Info Center in KDE P
     sudo curl -o /etc/tlp.conf https://raw.githubusercontent.com/connor-petri/fw13-tlp-config/refs/heads/main/tlp.conf
     ```
     
-3. **Disable and mask `power-profiles-daemon`:**
+3. **Disable and mask `power-profiles-daemon` and `tuned.service`:**
     ```bash
     sudo systemctl stop power-profiles-daemon.service && sudo systemctl mask power-profiles-daemon.service
+    ```
+    ```bash
+    sudo systemctl stop tuned.service && sudo systemctl mask tuned.service
     ```
 
 4. **Enable and start TLP:**
